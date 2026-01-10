@@ -1,0 +1,21 @@
+h3{
+    color: rgb(226, 11, 11);
+    background-color: rgb(156, 204, 204);
+    font-size: 20px;
+}
+p{
+    color: aqua;
+    background-color: black;
+    font-size: 30px;
+}
+thead,tfoot{
+
+    color: black;
+    background-color: aqua;
+    
+}
+table{
+    color: blueviolet;
+    size: 100px;
+    font-size: 50px;
+}
