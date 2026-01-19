@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-item{
+            width: 200px;
+            height: 150px;
+            margin-top: 10px;
+            background-color: red;
+            color: aqua;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 6px 7px rgb(108, 63, 63);
+            
+        }
+        .flex-c{
+            display: flex;
+            /* flex-direction: row; -->
+             flex-wrap: wrap;  */
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <ul class="flex-c">
+        <img class="flex-item" src="images/bgim (1).jpg" alt="">
+        <img class="flex-item" src="images/bgim(2).jpg" alt="">
+        <img class="flex-item" src="images/bgim(4).jpg" alt="">
+        <img class="flex-item" src="images/bgim(4).jpg" alt="">
+        <img class="flex-item" src="images/bgim (5).jpg" alt="">
+        <img class="flex-item" src="images/bgim (6).jpg" alt="">
+        
+        <!-- <li class="flex-item" ><img src="images/bgim (7).jpg" alt=""></li> 
+        <li class="flex-item" ><img src="images/bgim (8).jpg" alt=""></li>
+        <li class="flex-item" ><img src="images/bgim (9).jpg" alt=""></li>
+        <li class="flex-item" ><img src="images/bgim(10).png" alt=""></li>
+        <li class="flex-item" ><img src="images/bgim(11).jpg" alt=""></li>-->
+    </ul>
+</body>
+</html>
